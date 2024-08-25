@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+  
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 40px 0;
+    background-image: url('./Background\ \(2\).png');
+} 
+.profile-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+    border: 2px solid #ffffff; /* กำหนดสีกรอบ */
+    border-radius: 20px; /* ปัดมุมกรอบ */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: rgb(255, 255, 255);
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .profile-info {
+    text-align: center;
+  }
+
+  .profile-info h1 {
+    margin-bottom: 10px;
+  }
+
+  .profile-info p {
+    color: #00274f;
+  }

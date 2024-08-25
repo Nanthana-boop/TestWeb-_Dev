@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+  
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 40px 0;
+    background-image: url('./Background_login.png');
+} 
+
+.form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+    border: 2px solid #000104; /* กำหนดสีกรอบ */
+    border-radius: 10px; /* ปัดมุมกรอบ */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: aliceblue;
+  }
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .form-signin .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 15px;
+  }
+  .form-signin .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
